@@ -4,13 +4,12 @@ html {
 }
 
 body {
-	overflow: hidden;
 	background-color: #141d26;
 }
 
 body:before {
 	content: ' ';
-	position: absolute;
+	position: fixed;
 	top: -40px;
 	left: 50%;
 	width: 1400px;
